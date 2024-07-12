@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":2,"title":"","author":"","subject":"","keywords":"","creator":"pdfmake","producer":"pdfmake","creationdate":"D:20230320095101Z","moddate":"","trapped":"","fileName":"Srđan Kokot-CV (1).pdf","bounds":[[909,1286],[909,1286]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
