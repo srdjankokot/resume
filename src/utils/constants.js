@@ -4,6 +4,22 @@ import Reference from "../models/reference";
 export const experiences = [
   new Experience(
     "Senior Mobile Developer",
+    "VOZZI B.V.++++++++",
+    "Amsterdam",
+    "Sep 2019",
+    "Present",
+    "Start as an Android developer, and after a few years took over iOS development Lead by example, building up the skills and productivity of 2 junior developers. Involved in server-side development as a consultant Managing Play Store, App Store, and App Gallery",
+    [
+      "VOZZi - Android(Java) & iOS(Swift)",
+      "VOZZi Partner - Android(Java) & iOS(Swift)",
+      "HeiLogistics - Android(Java)",
+      "My AFS Car - Maintenance of the project (React-Native)",
+    ]
+  ),
+
+
+  new Experience(
+    "Senior Mobile Developer",
     "VOZZI B.V.",
     "Amsterdam",
     "Sep 2019",
