@@ -1,0 +1,184 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  width: 220mm; /* A4 width */
+  letter-spacing:0.05px;
+  word-spacing:0.05px;
+}
+
+#p1 {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 18mm; 
+  padding-left: 18mm;
+  background-color: #3a3e40;
+  width: 85mm; /* A4 width */
+}
+
+#p2 {
+    display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+
+  box-sizing: border-box;
+
+  padding-top: 14mm;
+  padding-left: 16mm;
+  margin-bottom: 30px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 6mm;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1.5px solid black;
+  margin-top: 0;
+  width: 100%;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.icon-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.s0_1 {
+  font-size: 21px;
+  font-family: Raleway-Bold_q;
+  color: #fff;
+}
+.s1_1 {
+  font-size: 12px;
+  font-family: Raleway-Regular_u;
+  color: #fff;
+}
+.s2_1 {
+  font-size: 12px;
+  font-family: Raleway-Bold_q;
+  color: #fff;
+}
+.title {
+  font-size: 34px;
+  font-family: Raleway-Bold_q;
+  color: #393e41;
+  letter-spacing:-0.7px;
+  word-spacing:0.46px;
+}
+.subtitle {
+  font-size: 18px;
+  font-family: Raleway-Light_y;
+  color: rgba(57, 62, 65, 0.64);
+}
+.content-title {
+  font-size: 21px;
+  font-family: Raleway-Bold_q;
+  color: #000;
+}
+.regular-text {
+  font-size: 12px;
+  font-family: Raleway-Regular_u;
+  color: #393e41;
+}
+.regular-text-bold {
+  font-size: 12px;
+  font-family: Raleway-SemiBold_11;
+  color: #393e41;
+}
+.date {
+  font-size: 12px;
+  font-family: Raleway-Regular_u;
+  color: rgba(57, 62, 65, 0.64);
+}
+.t {
+  transform-origin: bottom left;
+  z-index: 2;
+  /* position: absolute; */
+  /* white-space: pre; */
+  overflow: visible;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: Raleway-Bold_q;
+  src: url("fonts/Raleway-Bold_q.woff") format("woff");
+}
+
+@font-face {
+	font-family: Raleway-Light_y;
+	src: url("fonts/Raleway-Light_y.woff") format("woff");
+}
+
+@font-face {
+	font-family: Raleway-Regular_u;
+	src: url("fonts/Raleway-Regular_u.woff") format("woff");
+}
+
+@font-face {
+	font-family: Raleway-SemiBold_11;
+	src: url("fonts/Raleway-SemiBold_11.woff") format("woff");
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
