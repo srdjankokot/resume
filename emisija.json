@@ -259,7 +259,7 @@
          ]
       },
       {
-         "ViewType":"KO_ZNA_ZNA",
+         "viewType":"KO_ZNA_ZNA",
          "start":912,
          "end":1049,
          "questions":[
