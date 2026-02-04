@@ -2,12 +2,45 @@ import Experience from "../models/expirience";
 import Reference from "../models/reference";
 
 export const experiences = [
+new Experience(
+    
+    "Senior IoS Developer",
+    "Arkona Technology",
+    "Belgrade",
+    "Oct 2024",
+    "Present",
+    "Developing and maintaining an iOS applications. Working on a specific iOS project, implementing features, optimizing performance, and ensuring app stability.",
+    [
+      "Behavior Flow (Swift)"
+    ]
+  ),
+
+  new Experience(
+    "Project Manager & Flutter Developer",
+    "Cinteraction DOO",
+    "Novi Sad",
+    "Nov 2023",
+    "Present",
+    "Developing a cross-platform video conferencing app with AI-powered engagement tracking Platforms: Android, iOS, web, and desktop. Overseeing technical decisions, implementing and optimizing WebRTC, configuring and managing Janus, STUN, and TURN servers, ensuring seamless AI integration for engagement analysis.",
+    []
+  ),
+
+  new Experience(
+    "Android Developer",
+    "MachineCanSee",
+    "Novi Sad",
+    "Mar 2023",
+    "Mar 2025",
+    "As an external consultant, I helped in the development of android applications for face detection and vehicle recognition using TensorFlow Lite",
+    []
+  ),
+
   new Experience(
     "Senior Mobile Developer",
     "VOZZI B.V.",
     "Amsterdam",
     "Sep 2019",
-    "Present",
+    "Jul 2024",
     "Start as an Android developer, and after a few years took over iOS development Lead by example, building up the skills and productivity of 2 junior developers. Involved in server-side development as a consultant Managing Play Store, App Store, and App Gallery",
     [
       "VOZZi - Android(Java) & iOS(Swift)",
@@ -53,15 +86,6 @@ export const experiences = [
     []
   ),
 
-  new Experience(
-    "Android Developer",
-    "MachineCanSee",
-    "Novi Sad",
-    "Mar 2023",
-    "Present",
-    "As an external consultant, I helped in the development of android applications for face detection and vehicle recognition using TensorFlow Lite",
-    []
-  ),
 
   new Experience("Freelance", "", "", "Mar 2023", "Present", "", [
     "Created web site including a webshop for NaturaPanonica in WordPress https://naturapanonica.com/",
@@ -69,15 +93,16 @@ export const experiences = [
     "Developed mobile book app(ReactNative)",
     "Developed demo mBanking android app. Client PremiumSoft d.o.o Novi Sad",
   ]),
+
 ];
 
 export const references = [
-  new Reference(
-    "Vukmirović Srđan",
-    "srdjan.vukmirovic.ns@gmail.com",
-    "NS Web Development"
-  ),
-  new Reference("Mijin Vladimir", "vmijin@gmail.com", "Menu d.o.o"),
+  // new Reference(
+  //   "Vukmirović Srđan",
+  //   "srdjan.vukmirovic.ns@gmail.com",
+  //   "NS Web Development"
+  // ),
+  // new Reference("Mijin Vladimir", "vmijin@gmail.com", "Menu d.o.o"),
 ];
 
 export const skills = [
