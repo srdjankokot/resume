@@ -4,7 +4,7 @@ import ContentHeader from "./components/contentHeader";
 import EducationComponent from "./components/education";
 import ExperienceComponent from "./components/experience";
 import ReferenceComponent from "./components/reference";
-import { experiences, references, skills, hobbies } from "./utils/constants";
+import { experiences, references, skills, hobbies, programLanguages, cicd } from "./utils/constants";
 import LanguageComponent from "./components/language";
 import ContactComponent from "./components/contact";
 import { faEnvelope, faPhone, faHome } from "@fortawesome/free-solid-svg-icons";
@@ -68,6 +68,20 @@ function App() {
             <ContentHeader title="Skills" color="white" />
             <div>
               <span className="t s1_1">{skills.join(", ")}</span>
+            </div>
+          </div>
+
+                <div className="content-container">
+            <ContentHeader title="Programming Languages" color="white" />
+            <div>
+              <span className="t s1_1">{programLanguages.join(", ")}</span>
+            </div>
+          </div>
+
+                <div className="content-container">
+            <ContentHeader title="CI/CD & Tools" color="white" />
+            <div>
+              <span className="t s1_1">{cicd.join(", ")}</span>
             </div>
           </div>
 

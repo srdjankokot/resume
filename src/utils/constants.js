@@ -106,8 +106,17 @@ export const references = [
 ];
 
 export const skills = [
-  'Android', 'iOS', 'Flutter', 'React Native', 'Problem Solving', 'WordPress', 'MSSQL'
+  'Android', 'iOS', 'Flutter', 'React Native', 'Compose Multiplatform', 'React'
 ];
+
+export const programLanguages = [
+  'JAVA', 'Kotlin', 'Swift', 'Dart', 'JavaScript'
+];
+
+export const cicd = [
+  'Jenkins', 'GitHub Actions', 'Firebase', 'AWS', 'MSSQL'
+];
+
 
 export const hobbies = [
   'Basketball', 'Bicycle'
