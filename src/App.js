@@ -105,14 +105,14 @@ function App() {
       <div id="p2">
         <div className="header">
           <span className="t title">SRDJAN KOKOT </span>
-          <span className="t subtitle">Mobile developer </span>
+          <span className="t subtitle">Software developer </span>
         </div>
 
         <div className="content-container ">
           <ContentHeader title="Profile" />
           <div className="content">
             <span className="t regular-text">
-Mobile developer with 10+ years of experience building and maintaining native and cross-platform applications using Android, iOS, Flutter, React Native, and Compose Multiplatform. I have strong proficiency in Java, Swift, Kotlin, and Dart, with solid working knowledge of JavaScript, and the ability to quickly adapt to and work with other programming languages as needed. In addition to deep mobile expertise, I have hands-on experience with Java development and CI/CD automation, leveraging Jenkins and GitHub Actions to automate build, test, and deployment workflows. I focus on code quality, reliable delivery pipelines, and efficient collaboration within cross-functional teams.
+Software developer with 10+ years of experience building and maintaining native and cross-platform applications using Android, iOS, Flutter, React Native, and Compose Multiplatform. I have strong proficiency in Java, Swift, Kotlin, and Dart, with solid working knowledge of JavaScript, and the ability to quickly adapt to and work with other programming languages as needed. In addition to deep mobile expertise, I have hands-on experience with Java development and CI/CD automation, leveraging Jenkins and GitHub Actions to automate build, test, and deployment workflows. I focus on code quality, reliable delivery pipelines, and efficient collaboration within cross-functional teams.
             </span>
           </div>
         </div>
