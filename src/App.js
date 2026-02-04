@@ -121,7 +121,7 @@ Mobile developer with 10+ years of experience building and maintaining native an
             ))}
           </div>
         </div>
-{/* 
+
         <div className="content-container ">
           <ContentHeader title="References" />
 
@@ -130,7 +130,7 @@ Mobile developer with 10+ years of experience building and maintaining native an
               <ReferenceComponent key={index} reference={reference} />
             ))}
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

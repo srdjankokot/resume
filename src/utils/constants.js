@@ -97,11 +97,11 @@ new Experience(
 ];
 
 export const references = [
-  // new Reference(
-  //   "Vukmirović Srđan",
-  //   "srdjan.vukmirovic.ns@gmail.com",
-  //   "NS Web Development"
-  // ),
+  new Reference(
+    "Vukmirović Srđan",
+    "srdjan.vukmirovic.ns@gmail.com",
+    "NS Web Development"
+  ),
   // new Reference("Mijin Vladimir", "vmijin@gmail.com", "Menu d.o.o"),
 ];
 
